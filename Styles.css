@@ -160,12 +160,36 @@ html,body{
 }
 
 .tour-item{
-	display:inline-block;
-	padding:.5em;
+	display: inline-block;
+	padding-right: .5em;
 }
 
 .tour-date{
 	color:#555;
 	font-weight:bold;
 	width:11%;
+}
+
+.tour-city{
+	width:24%;
+}
+
+.tour-arena{
+	width:42%;
+}
+
+.tour-btn{
+	max-width:19%;
+}
+ 
+.btn-primary{
+	color:white;
+	background-color:#B3FC82;
+	border:none;
+	border-radius:.3em;
+	font-weight:bold;
+}
+
+.btn-primary:hover{
+	background-color:#48ae04;
 }
